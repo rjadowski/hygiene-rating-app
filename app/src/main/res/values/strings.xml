@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HygieneRating</string>
+    <string name="postcode">Postcode</string>
+    <string name="search_by_name">Search by name</string>
+    <string name="nearby_takeaways">Nearby Takeaways</string>
+    <string name="recently_added">Recently added</string>
+    <string name="enter_search_here">Enter search here</string>
+    <string name="refresh">Refresh</string>
+    <string name="back">Back</string>
+    <string name="view_on_map">View on map</string>
+    <string name="desc">desc</string>
+    <string name="header">header</string>
+    <string name="rating">Rating</string>
+    <string name="api_token">pk.eyJ1IjoieXVuYWhvbiIsImEiOiJjazZ0dHN1a2YwMm5tM2ZsdDBsNHh3eGU0In0.UeUunCwhVNDe2lYrPPeCWQ</string>
+    <string name="mapbox_style">mapbox://styles/mapbox/cjf4m44iw0uza2spb3q0a7s41</string>
+    <string name="hygiene_rating_app">HYGIENE RATING APP</string>
+</resources>

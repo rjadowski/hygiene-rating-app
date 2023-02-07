@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="75dp"
+            android:text="@string/hygiene_rating_app"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#7FC232"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="#333333"
+            android:hint="@string/enter_search_here"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#7FC232"
+            android:textColorHint="#4E7412" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/nameSearch"
+            style="@android:style/ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#222222"
+            android:text="@string/search_by_name"
+            android:textColor="#7FC232" />
+
+        <Button
+            android:id="@+id/postcodeSearch"
+            style="@android:style/ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#222222"
+            android:text="@string/postcode"
+            android:textColor="#7FC232" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/locationSearch"
+            style="@android:style/ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#222222"
+            android:text="@string/nearby_takeaways"
+            android:textColor="#7FC232" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <Button
+            android:id="@+id/recentSearch"
+            style="@android:style/ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#222222"
+            android:text="@string/recently_added"
+            android:textColor="#7FC232" />
+
+    </LinearLayout>
+</LinearLayout>
